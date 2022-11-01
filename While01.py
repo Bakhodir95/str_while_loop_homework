@@ -15,10 +15,10 @@ def main(s):
 
     while i < len(s):
         if s[i].isdigit():
-            count += 1
+            count += s[i]
         i += 1
 
-    count = int(count)
+    count = len(count)
     return count
 
 
