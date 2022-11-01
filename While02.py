@@ -18,4 +18,4 @@ def main(s):
     return count
 
 
-print(main("4t54t4fgr"))
+print(main("4t54t4fgr/'["))

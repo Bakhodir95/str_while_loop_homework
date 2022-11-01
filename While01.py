@@ -15,7 +15,7 @@ def main(s):
 
     while i < len(s):
         if s[i].isdigit():
-            count += s[i]
+            count += 1
         i += 1
 
     count = int(count)
