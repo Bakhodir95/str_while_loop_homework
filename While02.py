@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+
+    i = 0
+    count = ""
+
+    while i < len(s):
+        if s[i].isalpha():
+            count += s[i]
+        i += 1
+
+    return count
+
+
+print(main("4t54t4fgr"))
